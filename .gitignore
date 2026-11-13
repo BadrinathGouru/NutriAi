@@ -1,0 +1,14 @@
+# Environment variables - never commit secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Streamlit cache
+.streamlit/secrets.toml
